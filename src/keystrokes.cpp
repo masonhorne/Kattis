@@ -2,6 +2,10 @@
 #include <string>
 using namespace std;
 
+////////////////////////////////////////////////////////////
+// Problem: https://open.kattis.com/problems/lyklagangriti /
+////////////////////////////////////////////////////////////
+
 // Node structure for doubly linked list
 typedef struct NodeStruct {
     // Character for node

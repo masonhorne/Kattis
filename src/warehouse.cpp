@@ -4,6 +4,10 @@
 #include <algorithm>
 using namespace std;
 
+////////////////////////////////////////////////////////
+// Problem: https://open.kattis.com/problems/warehouse /
+////////////////////////////////////////////////////////
+
 int main() {
     // Read in test cases count
     int n; cin >> n;

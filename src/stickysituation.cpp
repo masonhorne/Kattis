@@ -3,16 +3,18 @@
 #include <algorithm>
 using namespace std;
 
-typedef unsigned long long ull;
+//////////////////////////////////////////////////////////////
+// Problem: https://open.kattis.com/problems/stickysituation /
+//////////////////////////////////////////////////////////////
 
 int main() {
     // Initialize list to store sticks
-    vector<ull> sticks;
+    vector<long long> sticks;
     // Read in count of sticks
-    ull n; cin >> n;
+    int n; cin >> n;
     // Add all sticks to the list
-    while(n-- > 0) {
-        ull l; cin >> l;
+    while(n--) {
+        long long l; cin >> l;
         sticks.push_back(l);
     }
     // Sort the list in ascending order

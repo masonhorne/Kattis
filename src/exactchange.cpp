@@ -2,6 +2,10 @@
 #include <vector>
 using namespace std;
 
+///////////////////////////////////////////////////////////
+// Problem: https://open.kattis.com/problems/exactchange2 /
+///////////////////////////////////////////////////////////
+
 // Max cost for any product from question description
 static const int MAX_COST = 10000;
 

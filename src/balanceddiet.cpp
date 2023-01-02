@@ -2,11 +2,15 @@
 #include <vector>
 using namespace std;
 
+///////////////////////////////////////////////////////////
+// Problem: https://open.kattis.com/problems/balanceddiet /
+///////////////////////////////////////////////////////////
+
 int main() {
     // Initialize n for storing number of values
-    int n; cin >> n;
+    int n;
     // Loop while input exists
-    while(n){
+    while(cin >> n && n){
         // Store vector of all values and the sum of them all
         vector<int> vals;
         int sum = 0;
@@ -39,8 +43,6 @@ int main() {
                 break;
             }
         }
-        // Read next test case value
-        cin >> n;
     }
     // Return exit code
     return 0;

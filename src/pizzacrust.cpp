@@ -2,6 +2,10 @@
 #include <cmath>
 using namespace std;
 
+//////////////////////////////////////////////////////
+// Problem: https://open.kattis.com/problems/pizza2 /
+/////////////////////////////////////////////////////
+
 int main() {
     // Read in radius and crust thickness
     int r, c; cin >> r; cin >> c;

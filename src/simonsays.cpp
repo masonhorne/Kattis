@@ -2,6 +2,10 @@
 #include<string>
 using namespace std;
 
+////////////////////////////////////////////////////////
+// Problem: https://open.kattis.com/problems/simonsays /
+////////////////////////////////////////////////////////
+
 int main() {
     // Initialize keyword string
     string start = "Simon says ";

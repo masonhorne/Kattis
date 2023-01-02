@@ -4,6 +4,10 @@
 #include <vector>
 using namespace std;
 
+///////////////////////////////////////////////////////////
+// Problem: https://open.kattis.com/problems/minorsetback /
+///////////////////////////////////////////////////////////
+
 int main() {
     // Read in number of notes
     int n; cin >> n;

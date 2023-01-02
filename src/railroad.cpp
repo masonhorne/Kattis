@@ -1,6 +1,10 @@
 #include<iostream>
 using namespace std;
 
+////////////////////////////////////////////////////////
+// Problem: https://open.kattis.com/problems/railroad2 /
+////////////////////////////////////////////////////////
+
 int main() {
     // Read input values
     int x, y; cin >> x >> y;

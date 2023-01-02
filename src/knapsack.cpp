@@ -3,6 +3,10 @@
 #include <cstring>
 using namespace std;
 
+///////////////////////////////////////////////////////
+// Problem: https://open.kattis.com/problems/knapsack /
+///////////////////////////////////////////////////////
+
 void knapsack(int n, int c, int w[], int v[]) {
     // Initialize dp array to 0
     int dp[n + 1][c + 1];
@@ -11,7 +15,7 @@ void knapsack(int n, int c, int w[], int v[]) {
     for(int i = 0; i <= n; i++) {
         // Loop through all capacities
         for(int j = 0; j <= c; j++) {
-            // If either is 0, set to 0
+            // If either is 0, set to 0 for base case
             if(i == 0 || j == 0) {
                 dp[i][j] = 0;
             // Otherwise if weight is in range, set to max of current or from other

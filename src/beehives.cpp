@@ -2,6 +2,10 @@
 #include <cmath>
 using namespace std;
 
+///////////////////////////////////////////////////////
+// Problem: https://open.kattis.com/problems/beehives /
+///////////////////////////////////////////////////////
+
 int main() {
     // Read in distance and count for this test case
     double d; int n;

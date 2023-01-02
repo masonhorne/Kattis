@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
 
+/////////////////////////////////////////////////////////
+// Problem: https://open.kattis.com/problems/jewelrybox /
+/////////////////////////////////////////////////////////
+
 int main() {
     // Read in total test cases and set precision
     int n; cin >> n;
